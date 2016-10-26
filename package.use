@@ -39,3 +39,5 @@ sys-libs/ncurses tinfo
 # required by net-misc/grive-0.5.1_pre20160706
 net-misc/curl curl_ssl_gnutls -curl_ssl_nss
 dev-python/pycurl curl_ssl_gnutls -curl_ssl_nss
+# required by games-emulation/dolphin-5.0::gentoo[sdl]
+>=media-libs/libsdl2-2.0.5 haptic
