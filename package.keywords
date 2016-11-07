@@ -20,3 +20,5 @@ x11-misc/lightdm -~amd64
 =sys-libs/libomp-3.9.0 ~amd64
 # required by sys-devel/llvm-3.9.0-r1::gentoo[clang]
 =sys-devel/clang-runtime-3.9.0 ~amd64
+# required by libreoffice (argument)
+=sys-devel/boost-m4-0.4_p20160328 ~amd64
