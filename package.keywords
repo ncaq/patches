@@ -22,3 +22,8 @@ x11-misc/lightdm -~amd64
 =sys-devel/clang-runtime-3.9.0 ~amd64
 # required by libreoffice (argument)
 =sys-devel/boost-m4-0.4_p20160328 ~amd64
+
+# karen
+
+sys-kernel/gentoo-sources:4.8.6 ~amd64
+=sys-kernel/linux-firmware-20160628 ~amd64
