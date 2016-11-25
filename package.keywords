@@ -20,3 +20,5 @@ x11-misc/lightdm -~amd64
 =sys-devel/clang-runtime-3.9.0 ~amd64
 # required by libreoffice (argument)
 =sys-devel/boost-m4-0.4_p20160328 ~amd64
+# required by dev-lang/python-2.7.12::gentoo[ncurses,readline]
+=sys-libs/readline-7.0_p1 ~amd64
