@@ -25,5 +25,5 @@ x11-misc/lightdm -~amd64
 
 # karen
 
-sys-kernel/gentoo-sources:4.8.6 ~amd64
-=sys-kernel/linux-firmware-20160628 ~amd64
+sys-kernel/gentoo-sources ~amd64
+sys-kernel/linux-firmware ~amd64
