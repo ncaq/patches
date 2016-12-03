@@ -1,4 +1,5 @@
 app-editors/emacs toolkit-scroll-bars
+app-i18n/mozc renderer
 app-portage/layman sync-plugin-portage
 dev-lang/rust -clang
 dev-qt/qt-creator android autotools cmake git ios valgrind webkit winrt
