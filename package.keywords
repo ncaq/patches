@@ -26,5 +26,5 @@ sys-libs/readline:0/7 ~amd64
 
 # karen
 
-sys-kernel/gentoo-sources ~amd64
+<sys-kernel/gentoo-sources-4.9 ~amd64
 sys-kernel/linux-firmware ~amd64
