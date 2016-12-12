@@ -22,4 +22,4 @@ x11-misc/lightdm -~amd64
 =sys-devel/boost-m4-0.4_p20160328 ~amd64
 # required by dev-lang/python-2.7.12::gentoo[ncurses,readline]
 # required by dev-db/unixODBC-2.3.4::gentoo
-=sys-libs/readline-7.0_p1-r1 ~amd64
+sys-libs/readline:0/7 ~amd64
