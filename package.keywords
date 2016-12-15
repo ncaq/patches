@@ -3,3 +3,5 @@ sys-kernel/gentoo-sources -~amd64
 www-client/chromium -~amd64
 
 # karen
+
+<sys-kernel/gentoo-sources-4.9
