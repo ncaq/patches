@@ -2,14 +2,10 @@ app-editors/emacs toolkit-scroll-bars
 app-emulation/wine staging
 app-i18n/mozc renderer
 app-portage/layman sync-plugin-portage
-dev-qt/qt-creator android autotools cmake git ios valgrind webkit winrt
 kde-apps/libkcddb musicbrainz
 media-fonts/ricty disable-fullwidth-ambiguous-charactors oblique
-media-gfx/gimp smp
 media-video/vlc matroska
 net-print/hplip minimal -X -libnotify -qt4
-
-dev-lang/dmd:2.071 dmd-2_067
 
 # required by sci-mathematics/coq-8.5::gentoo[gtk]
 dev-ml/lablgtk sourceview
@@ -30,8 +26,6 @@ dev-ml/lablgtk sourceview
 >=sys-libs/tdb-1.3.8 python
 >=sys-libs/ntdb-1.0-r1 python
 >=sys-libs/tevent-0.9.28 python
-# required by dev-qt/qt-creator-4.0.3::gentoo
->=dev-libs/libpcre-8.39 pcre16
 # required by stack
 sys-libs/ncurses tinfo
 # required by www-client/chromium-54.0.2840.59::gentoo
