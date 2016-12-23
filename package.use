@@ -2,7 +2,6 @@ app-editors/emacs toolkit-scroll-bars
 app-emulation/wine staging
 app-i18n/mozc renderer
 app-portage/layman sync-plugin-portage
-dev-lang/rust -clang
 dev-qt/qt-creator android autotools cmake git ios valgrind webkit winrt
 kde-apps/libkcddb musicbrainz
 media-fonts/ricty disable-fullwidth-ambiguous-charactors oblique
