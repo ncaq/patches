@@ -38,3 +38,9 @@ dev-python/pycurl curl_ssl_gnutls -curl_ssl_nss -curl_ssl_openssl
 >=app-crypt/pinentry-1.0.0 gnome-keyring
 # required by games-util/antimicro-2.20.2::gentoo
 >=dev-libs/libpcre-8.40 pcre16
+# required by media-sound/audex-0.79::gentoo
+>=dev-libs/libdbusmenu-qt-0.9.3_pre20160218 qt5
+>=media-libs/phonon-4.9.0 qt5
+>=media-libs/phonon-vlc-0.9.0 qt5
+>=net-dns/avahi-0.6.32-r1 mdnsresponder-compat
+>=sys-auth/polkit-qt-0.112.0-r1 qt5
