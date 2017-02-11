@@ -3,6 +3,7 @@ app-emulation/wine staging
 app-i18n/mozc renderer
 app-portage/layman sync-plugin-portage
 kde-apps/libkcddb musicbrainz
+media-fonts/noto cjk
 media-fonts/ricty disable-fullwidth-ambiguous-charactors oblique
 media-video/vlc matroska
 net-print/hplip minimal -X -libnotify -qt4
