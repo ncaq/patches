@@ -47,3 +47,5 @@ dev-python/pycurl curl_ssl_gnutls -curl_ssl_nss -curl_ssl_openssl
 >=sys-auth/polkit-qt-0.112.0-r1 qt5
 # required by app-text/texlive-2016::gentoo[l10n_ja]
 >=app-text/texlive-core-2016 cjk
+# required by nautilus
+app-misc/tracker gstreamer
