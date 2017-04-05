@@ -28,7 +28,7 @@ dev-ml/lablgtk sourceview
 # required by stack
 sys-libs/ncurses tinfo
 # required by www-client/chromium-54.0.2840.59::gentoo
->=media-libs/libvpx-1.6.0-r1 svc
+>=media-libs/libvpx-1.6.0-r1 svc postproc
 >=sys-libs/zlib-1.2.8-r1 minizip
 # required by net-misc/grive-0.5.1_pre20160706
 net-misc/curl curl_ssl_gnutls -curl_ssl_nss -curl_ssl_openssl
