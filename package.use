@@ -5,7 +5,7 @@ app-portage/layman sync-plugin-portage
 kde-apps/libkcddb musicbrainz
 media-fonts/noto cjk
 media-fonts/ricty disable-fullwidth-ambiguous-charactors oblique
-media-video/vlc matroska
+media-video/vlc bluray cddb matroska v4l
 net-print/hplip minimal -X -libnotify -qt4
 
 # required by sci-mathematics/coq-8.5::gentoo[gtk]
