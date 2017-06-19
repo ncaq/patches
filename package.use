@@ -3,7 +3,6 @@ app-emulation/wine staging
 app-i18n/mozc renderer
 app-portage/layman sync-plugin-portage
 kde-apps/libkcddb musicbrainz
-media-fonts/noto cjk
 media-fonts/ricty disable-fullwidth-ambiguous-charactors oblique
 media-video/vlc bluray cddb matroska v4l
 net-print/hplip minimal -X -libnotify -qt4
@@ -45,8 +44,6 @@ dev-python/pycurl curl_ssl_gnutls -curl_ssl_nss -curl_ssl_openssl
 >=media-libs/phonon-vlc-0.9.0 qt5
 >=net-dns/avahi-0.6.32-r1 mdnsresponder-compat
 >=sys-auth/polkit-qt-0.112.0-r1 qt5
-# required by app-text/texlive-2016::gentoo[l10n_ja]
->=app-text/texlive-core-2016 cjk
 # required by gnome-base/nautilus-3.22.2
 gnome-base/nautilus tracker
 app-misc/tracker gstreamer
