@@ -2,5 +2,3 @@ app-office/libreoffice -~amd64
 sys-apps/systemd -~amd64
 sys-kernel/gentoo-sources -~amd64
 www-client/chromium -~amd64
-
-=net-misc/mikutter-9999 **
