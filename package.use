@@ -1,6 +1,6 @@
 app-editors/emacs toolkit-scroll-bars
 app-emulation/wine staging
-app-i18n/mozc renderer
+app-i18n/mozc ibus renderer
 app-portage/layman sync-plugin-portage
 kde-apps/libkcddb musicbrainz
 media-fonts/ricty disable-fullwidth-ambiguous-charactors oblique
