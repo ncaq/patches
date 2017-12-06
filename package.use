@@ -54,3 +54,5 @@ app-misc/tracker gstreamer
 # required by gnome-extra/sushi-3.24.0::gentoo
 # required by gnome-base/nautilus-3.24.2.1::gentoo[previewer]
 >=media-libs/gst-plugins-bad-1.12.3 egl
+# required by app-office/libreoffice-5.4.2.2::gentoo
+>=dev-libs/xmlsec-1.2.24-r1 nss
