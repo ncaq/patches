@@ -3,3 +3,4 @@ sys-apps/systemd -~amd64
 sys-boot/os-prober -~amd64
 sys-kernel/gentoo-sources -~amd64
 www-client/chromium -~amd64
+www-client/firefox -~amd64
