@@ -4,3 +4,5 @@ sys-boot/os-prober -~amd64
 sys-kernel/gentoo-sources -~amd64
 www-client/chromium -~amd64
 www-client/firefox -~amd64
+
+sys-kernel/gentoo-sources:4.14.6
