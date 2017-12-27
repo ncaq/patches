@@ -4,7 +4,7 @@ app-i18n/mozc ibus renderer
 app-portage/layman sync-plugin-portage
 gnome-base/gvfs bluray fuse mtp samba
 kde-apps/libkcddb musicbrainz
-media-fonts/ricty disable-fullwidth-ambiguous-charactors oblique
+media-fonts/ricty disable-fullwidth-ambiguous-charactors
 media-video/vlc bluray cddb matroska v4l
 net-print/hplip minimal -X -libnotify -qt4
 
