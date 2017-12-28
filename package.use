@@ -7,6 +7,7 @@ kde-apps/libkcddb musicbrainz
 media-fonts/ricty disable-fullwidth-ambiguous-charactors
 media-video/vlc bluray cddb matroska v4l
 net-print/hplip minimal -X -libnotify -qt4
+sys-kernel/gentoo-sources experimental
 
 # required by sci-mathematics/coq-8.5::gentoo[gtk]
 dev-ml/lablgtk sourceview
