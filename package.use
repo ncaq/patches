@@ -57,3 +57,5 @@ app-misc/tracker gstreamer
 # required by dev-util/nvidia-cuda-toolkit-9.0.176::gentoo
 # required by dev-util/nvidia-cuda-sdk-9.0.176::gentoo
 >=x11-drivers/nvidia-drivers-387.34 uvm
+# bug work around
+>=sys-apps/the_silver_searcher-2.1.0 lzma
