@@ -54,3 +54,6 @@ app-misc/tracker gstreamer
 >=media-libs/gst-plugins-bad-1.12.3 egl
 # required by app-office/libreoffice-5.4.2.2::gentoo
 >=dev-libs/xmlsec-1.2.24-r1 nss
+# required by dev-util/nvidia-cuda-toolkit-9.0.176::gentoo
+# required by dev-util/nvidia-cuda-sdk-9.0.176::gentoo
+>=x11-drivers/nvidia-drivers-387.34 uvm
