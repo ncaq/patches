@@ -5,4 +5,6 @@ sys-kernel/gentoo-sources -~amd64
 www-client/chromium -~amd64
 www-client/firefox -~amd64
 
+=net-misc/mikutter-9999 **
+
 =sys-apps/systemd-236-r1
