@@ -7,4 +7,7 @@ www-client/firefox -~amd64
 
 =net-misc/mikutter-9999 **
 
+<sys-kernel/gentoo-sources-4.15
+
+# required by sys-libs/glibc-2.26-r5
 <=sys-apps/systemd-236-r4
