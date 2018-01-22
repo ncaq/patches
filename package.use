@@ -21,3 +21,5 @@ sys-libs/zlib minizip
 >=x11-drivers/nvidia-drivers-387.34 uvm
 # bug work around
 >=sys-apps/the_silver_searcher-2.1.0 lzma
+# required by app-office/libreoffice-5.4.2.2::gentoo
+>=dev-libs/xmlsec-1.2.25 nss
