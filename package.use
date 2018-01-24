@@ -3,6 +3,7 @@ app-editors/emacs toolkit-scroll-bars
 app-i18n/mozc renderer
 app-portage/layman sync-plugin-portage
 app-text/texlive luatex
+dev-util/dlang-tools dmd-2_078
 kde-apps/libkcddb musicbrainz
 media-fonts/ricty disable-fullwidth-ambiguous-charactors
 net-print/hplip minimal -X
