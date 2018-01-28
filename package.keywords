@@ -5,8 +5,6 @@ sys-kernel/gentoo-sources -~amd64
 www-client/chromium -~amd64
 www-client/firefox -~amd64
 
-=net-misc/mikutter-9999 **
-
 <sys-kernel/gentoo-sources-4.15
 
 # required by sys-libs/glibc-2.26-r5
