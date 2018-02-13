@@ -10,7 +10,8 @@ net-print/hplip minimal -X
 sys-kernel/gentoo-sources experimental
 
 # required by www-client/firefox-52.5.2:0/0::gentoo
-dev-lang/python:2.7 sqlite
+# required by dev-python/jupyter-1.0.0-r1::gentoo
+dev-lang/python sqlite
 # required by www-client/chromium-63.0.3239.108:0/0::gentoo
 sys-libs/zlib minizip
 # required by media-gfx/gimp-2.9.8-r1::gentoo
