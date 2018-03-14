@@ -27,3 +27,5 @@ sys-libs/zlib minizip
 >=sys-apps/the_silver_searcher-2.1.0 lzma
 # required by app-office/libreoffice-5.4.2.2::gentoo
 >=dev-libs/xmlsec-1.2.25 nss
+# stack ghc
+sys-libs/ncurses tinfo
