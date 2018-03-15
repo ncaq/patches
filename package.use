@@ -3,7 +3,7 @@ app-editors/emacs toolkit-scroll-bars
 app-i18n/mozc renderer
 app-portage/layman sync-plugin-portage
 app-text/texlive luatex
-dev-util/dlang-tools dmd-2_078
+dev-util/dlang-tools dmd-2_079
 kde-apps/libkcddb musicbrainz
 media-fonts/ricty disable-fullwidth-ambiguous-charactors
 net-print/hplip minimal -X
@@ -27,3 +27,5 @@ sys-libs/zlib minizip
 >=sys-apps/the_silver_searcher-2.1.0 lzma
 # required by app-office/libreoffice-5.4.2.2::gentoo
 >=dev-libs/xmlsec-1.2.25 nss
+# stack ghc
+sys-libs/ncurses tinfo
