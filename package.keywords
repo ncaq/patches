@@ -11,8 +11,8 @@ www-client/firefox -~amd64
 <=sys-apps/systemd-236-r4
 
 # required by mikutter-3.6.6
-=dev-ruby/ruby-atk-3.2.4 **
-=dev-ruby/ruby-gdkpixbuf2-3.2.4 **
-=dev-ruby/ruby-glib2-3.2.4 **
-=dev-ruby/ruby-gtk2-3.2.4 **
-=dev-ruby/ruby-pango-3.2.4 **
+=dev-ruby/ruby-atk-3.2.5 **
+=dev-ruby/ruby-gdkpixbuf2-3.2.5 **
+=dev-ruby/ruby-glib2-3.2.5 **
+=dev-ruby/ruby-gtk2-3.2.5 **
+=dev-ruby/ruby-pango-3.2.5 **
