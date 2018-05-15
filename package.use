@@ -29,3 +29,7 @@ sys-libs/zlib minizip
 >=dev-libs/xmlsec-1.2.25 nss
 # stack ghc
 sys-libs/ncurses tinfo
+# required by virtual/wine-0-r6::gentoo
+>=media-libs/libsdl2-2.0.8-r2 haptic
+# required by sys-boot/os-prober-1.76-r1::gentoo
+>=sys-boot/grub-2.02-r1 mount
