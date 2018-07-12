@@ -9,6 +9,7 @@ kde-apps/libkcddb musicbrainz
 media-fonts/ricty disable-fullwidth-ambiguous-charactors
 net-print/hplip minimal -X
 sys-kernel/gentoo-sources experimental
+x11-terms/tilix dmd-2_079
 
 # required by www-client/firefox-52.5.2:0/0::gentoo
 # required by dev-python/jupyter-1.0.0-r1::gentoo
@@ -36,3 +37,5 @@ sys-libs/ncurses tinfo
 >=sys-boot/grub-2.02-r1 mount
 # required by sci-mathematics/coq-8.6.1::gentoo[gtk]
 >=dev-ml/lablgtk-2.18.5 sourceview
+# required by tilix (argument)
+>=dev-libs/gtkd-3.6.6 dmd-2_079 vte
