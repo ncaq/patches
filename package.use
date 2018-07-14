@@ -3,8 +3,7 @@ app-editors/emacs toolkit-scroll-bars
 app-i18n/mozc renderer
 app-portage/layman sync-plugin-portage
 app-text/texlive luatex
-dev-util/dfmt dmd-2_079
-dev-util/dlang-tools dmd-2_079
+dev-lang/dmd -dmd-2_079
 kde-apps/libkcddb musicbrainz
 media-fonts/ricty disable-fullwidth-ambiguous-charactors
 net-print/hplip minimal -X
@@ -36,3 +35,5 @@ sys-libs/ncurses tinfo
 >=sys-boot/grub-2.02-r1 mount
 # required by sci-mathematics/coq-8.6.1::gentoo[gtk]
 >=dev-ml/lablgtk-2.18.5 sourceview
+# required by tilix (argument)
+>=dev-libs/gtkd-3.6.6 dmd-2_079 vte
