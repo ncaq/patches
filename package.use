@@ -17,14 +17,11 @@ sys-libs/zlib minizip
 # required by media-gfx/gimp-2.9.8-r1::gentoo
 >=media-libs/libmypaint-1.3.0 gegl
 # required by gnome-base/gvfs-1.32.1:0/0::gentoo
->=net-fs/samba-4.7.4 client
 # required by virtual/wine-0-r6::gentoo
->=net-fs/samba-4.7.5 winbind
+>=net-fs/samba-4.7.4 client winbind
 # required by dev-util/nvidia-cuda-toolkit-9.0.176::gentoo
 # required by dev-util/nvidia-cuda-sdk-9.0.176::gentoo
 >=x11-drivers/nvidia-drivers-387.34 uvm
-# bug work around
->=sys-apps/the_silver_searcher-2.1.0 lzma
 # required by app-office/libreoffice-5.4.2.2::gentoo
 >=dev-libs/xmlsec-1.2.25 nss
 # stack ghc
@@ -35,5 +32,3 @@ sys-libs/ncurses tinfo
 >=sys-boot/grub-2.02-r1 mount
 # required by sci-mathematics/coq-8.6.1::gentoo[gtk]
 >=dev-ml/lablgtk-2.18.5 sourceview
-# required by tilix (argument)
->=dev-libs/gtkd-3.6.6 dmd-2_079 vte
