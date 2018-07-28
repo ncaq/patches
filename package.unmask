@@ -1,0 +1,3 @@
+# required by yarn
+=net-libs/nodejs-9.11.2
+=dev-libs/icu-62.1
