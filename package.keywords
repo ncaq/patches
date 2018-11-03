@@ -10,3 +10,9 @@ www-client/chromium -~amd64
 =dev-ruby/ruby-glib2-3.2.7 **
 =dev-ruby/ruby-gtk2-3.2.9 **
 =dev-ruby/ruby-pango-3.2.9 **
+
+# CHOST bug
+dev-lang/rust -~amd64
+virtual/rust -~amd64
+dev-lang/cargo -~amd64
+virtual/cargo -~amd64
