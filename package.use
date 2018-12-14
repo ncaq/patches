@@ -4,7 +4,6 @@ app-i18n/mozc renderer
 app-portage/layman sync-plugin-portage
 app-text/texlive luatex
 dev-lang/dmd -dmd-2_079
-dev-lang/rust cargo clippy rls rustfmt wasm
 kde-apps/libkcddb musicbrainz
 media-fonts/ricty disable-fullwidth-ambiguous-charactors
 net-print/hplip minimal -X
