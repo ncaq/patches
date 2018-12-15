@@ -5,8 +5,6 @@ sys-kernel/gentoo-sources -~amd64
 www-client/chromium -~amd64
 
 # required by mikutter-3.8
-=dev-ruby/ruby-atk-3.2.7 **
-=dev-ruby/ruby-gdkpixbuf2-3.2.9 **
-=dev-ruby/ruby-glib2-3.2.7 **
-=dev-ruby/ruby-gtk2-3.2.9 **
-=dev-ruby/ruby-pango-3.2.9 **
+=dev-ruby/ruby-gdkpixbuf2-3.3.0 **
+=dev-ruby/ruby-gtk2-3.3.0 **
+=dev-ruby/ruby-pango-3.3.0 **
