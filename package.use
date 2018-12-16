@@ -14,7 +14,7 @@ sys-kernel/gentoo-sources experimental
 dev-lang/python sqlite
 # required by www-client/chromium-63.0.3239.108:0/0::gentoo
 sys-libs/zlib minizip
->=net-libs/nodejs-9.11.2 inspector
+>=net-libs/nodejs-8.14.0 inspector
 # required by media-gfx/gimp-2.9.8-r1::gentoo
 >=media-libs/libmypaint-1.3.0 gegl
 # required by gnome-base/gvfs-1.32.1:0/0::gentoo
