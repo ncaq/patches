@@ -5,9 +5,7 @@ sys-boot/os-prober -~amd64
 sys-kernel/gentoo-sources -~amd64
 www-client/chromium -~amd64
 
-# required by mikutter-3.8
-=dev-ruby/ruby-gdkpixbuf2-3.3.0 **
-=dev-ruby/ruby-gtk2-3.3.0 **
-=dev-ruby/ruby-pango-3.3.0 **
-# required by =sys-boot/grub-9999 (argument)
 =sys-boot/grub-9999 **
+
+# required by mikutter-3.8
+=dev-ruby/ruby-gtk2-3.3.2 **
