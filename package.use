@@ -11,7 +11,6 @@ sys-kernel/gentoo-sources experimental
 
 # required by www-client/firefox-65.0::gentoo
 >=dev-db/sqlite-3.26.0 secure-delete
->=media-libs/libvpx-1.7.0 postproc
 >=x11-base/xorg-server-1.20.3 xvfb
 dev-lang/python sqlite
 # required by www-client/chromium-63.0.3239.108:0/0::gentoo
