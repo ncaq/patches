@@ -5,5 +5,8 @@ sys-boot/os-prober -~amd64
 sys-kernel/gentoo-sources -~amd64
 www-client/chromium -~amd64
 
+# required by libreoffice
+dev-util/mdds -~amd64
+
 # required by mikutter-3.8
 =dev-ruby/ruby-gtk2-3.3.2 **
