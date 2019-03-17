@@ -36,3 +36,5 @@ sys-libs/ncurses tinfo
 >=dev-ml/lablgtk-2.18.5 sourceview
 # required by app-crypt/yubikey-manager-qt (argument)
 >=dev-qt/qtquickcontrols2-5.11.3 widgets
+# required world
+www-client/firefox -system-libvpx
