@@ -1,5 +1,6 @@
 app-admin/keepassxc autotype network
 app-editors/emacs toolkit-scroll-bars
+app-emulation/wine-vanilla -realtime
 app-i18n/mozc renderer
 app-portage/layman sync-plugin-portage
 app-text/texlive luatex
@@ -8,6 +9,7 @@ kde-apps/libkcddb musicbrainz
 media-fonts/ricty disable-fullwidth-ambiguous-charactors
 net-print/hplip minimal -X
 sys-kernel/gentoo-sources experimental
+www-client/chromium jumbo-build tcmalloc
 
 # required by www-client/firefox-65.0::gentoo
 >=dev-db/sqlite-3.26.0 secure-delete
