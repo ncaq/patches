@@ -6,7 +6,11 @@ sys-boot/os-prober -~amd64
 sys-kernel/gentoo-sources -~amd64
 www-client/chromium -~amd64
 
+# required by zstd on btrfs
 =sys-boot/grub-9999 **
+
+# required by swapfile on btrfs
+<sys-kernel/gentoo-sources-5.1
 
 # required by libreoffice
 dev-util/mdds -~amd64
