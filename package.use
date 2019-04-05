@@ -9,6 +9,7 @@ kde-apps/libkcddb musicbrainz
 media-fonts/ricty disable-fullwidth-ambiguous-charactors
 net-print/hplip minimal -X
 sys-kernel/gentoo-sources experimental
+sys-process/glances ip quicklook
 www-client/chromium jumbo-build tcmalloc
 
 # required by www-client/firefox-65.0::gentoo
