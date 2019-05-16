@@ -4,10 +4,11 @@ app-emulation/wine-vanilla -realtime
 app-i18n/mozc renderer
 app-portage/layman sync-plugin-portage
 app-text/texlive luatex
-dev-lang/dmd -dmd-2_083
+dev-lang/dmd -* abi_x86_32 doc examples selfhost
 kde-apps/libkcddb musicbrainz
 media-fonts/ricty disable-fullwidth-ambiguous-charactors
 net-print/hplip minimal -X
+sys-devel/gcc d doc go graphite
 sys-kernel/gentoo-sources experimental
 sys-process/glances ip quicklook
 www-client/chromium jumbo-build tcmalloc
