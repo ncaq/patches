@@ -1,3 +1,0 @@
-www-plugins/adobe-flash AdobeFlash-11.x
-# required by dev-util/nvidia-cuda-sdk-9.0.176::gentoo
->=dev-util/nvidia-cuda-toolkit-9.0.176 NVIDIA-CUDA
