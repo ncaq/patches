@@ -8,6 +8,7 @@ dev-lang/dmd -* abi_x86_32 doc examples selfhost
 kde-apps/libkcddb musicbrainz
 media-fonts/ricty disable-fullwidth-ambiguous-charactors
 net-print/hplip minimal -X
+net-vpn/networkmanager-l2tp gnome
 sys-devel/gcc d doc go graphite
 sys-kernel/gentoo-sources experimental
 sys-process/glances ip quicklook
@@ -42,3 +43,6 @@ sys-libs/ncurses tinfo
 >=dev-qt/qtquickcontrols2-5.11.3 widgets
 # required world
 www-client/firefox -system-libvpx
+# required by net-vpn/networkmanager-l2tp-1.2.12::gentoo
+>=net-dialup/ppp-2.4.7-r7 eap-tls
+>=dev-libs/nss-3.44-r2 utils
