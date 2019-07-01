@@ -46,3 +46,6 @@ www-client/firefox -system-libvpx
 # required by net-vpn/networkmanager-l2tp-1.2.12::gentoo
 >=net-dialup/ppp-2.4.7-r7 eap-tls
 >=dev-libs/nss-3.44-r2 utils
+# required by media-libs/mozjpeg-9999::ncaq-overlay
+>=media-libs/libpng-1.6.37 static-libs
+>=sys-libs/zlib-1.2.11-r2 static-libs
