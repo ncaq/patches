@@ -31,8 +31,6 @@ sys-libs/zlib minizip
 >=x11-drivers/nvidia-drivers-387.34 uvm
 # required by app-office/libreoffice-5.4.2.2::gentoo
 >=dev-libs/xmlsec-1.2.25 nss
-# required by stack ghc
-sys-libs/ncurses tinfo
 # required by virtual/wine-0-r6::gentoo
 >=media-libs/libsdl2-2.0.8-r2 haptic
 # required by sys-boot/os-prober-1.76-r1::gentoo
