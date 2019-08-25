@@ -4,6 +4,3 @@ net-libs/webkit-gtk -~amd64
 sys-apps/systemd -~amd64
 sys-kernel/gentoo-sources -~amd64
 www-client/chromium -~amd64
-
-# required by libreoffice
-dev-util/mdds -~amd64
