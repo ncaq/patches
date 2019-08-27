@@ -47,3 +47,5 @@ www-client/firefox -system-libvpx
 # required by media-libs/mozjpeg-9999::ncaq-overlay
 >=media-libs/libpng-1.6.37 static-libs
 >=sys-libs/zlib-1.2.11-r2 static-libs
+# required by dev-db/mysql-workbench-8.0.17::gentoo
+>=net-libs/libssh-0.9.0 server
