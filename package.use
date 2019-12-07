@@ -5,6 +5,7 @@ app-i18n/mozc renderer
 app-portage/layman sync-plugin-portage
 app-text/texlive luatex
 dev-java/openjdk gentoo-vm
+dev-java/openjdk-bin gentoo-vm
 dev-java/sbt binary
 dev-lang/dmd -* abi_x86_32 selfhost
 kde-apps/libkcddb musicbrainz
