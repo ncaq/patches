@@ -13,7 +13,6 @@ media-fonts/ricty disable-fullwidth-ambiguous-charactors
 net-print/hplip minimal -X
 net-vpn/networkmanager-l2tp gnome
 sys-kernel/gentoo-sources experimental
-sys-process/glances ip quicklook
 www-client/chromium jumbo-build tcmalloc
 
 # required by www-client/firefox-65.0::gentoo
