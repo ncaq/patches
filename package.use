@@ -5,13 +5,12 @@ app-i18n/mozc renderer
 app-portage/layman sync-plugin-portage
 app-text/texlive luatex
 dev-java/openjdk-bin gentoo-vm
-dev-lang/dmd -* abi_x86_32 selfhost
+dev-lang/dmd -* abi_x86_32 examples selfhost tools
 kde-apps/libkcddb musicbrainz
 media-fonts/ricty disable-fullwidth-ambiguous-charactors
 net-print/hplip minimal -X
 net-vpn/networkmanager-l2tp gnome
 sys-kernel/gentoo-sources experimental
-www-client/chromium jumbo-build tcmalloc
 
 # required by www-client/firefox-65.0::gentoo
 >=dev-db/sqlite-3.26.0 secure-delete
