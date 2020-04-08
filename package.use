@@ -6,6 +6,7 @@ app-portage/layman sync-plugin-portage
 app-text/texlive luatex
 dev-java/openjdk-bin gentoo-vm
 dev-lang/dmd -* abi_x86_32 examples selfhost tools
+dev-lang/perl ithreads
 kde-apps/libkcddb musicbrainz
 media-fonts/ricty disable-fullwidth-ambiguous-charactors
 net-print/hplip minimal -X
