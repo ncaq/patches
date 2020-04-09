@@ -50,6 +50,7 @@ sys-libs/zlib minizip
 sys-apps/systemd cgroup-hybrid
 # required by net-im/zoom-3.5.374815.0324-r2::gentoo
 >=dev-qt/qtwebchannel-5.14.1 qml
+>=dev-qt/qtwebengine-5.14.1 widgets
 # required by sys-libs/libunwind-1.4.0::gentoo[lzma]
 # required by app-emulation/wine-vanilla-5.5::gentoo[unwind]
 >=app-arch/xz-utils-5.2.5 static-libs
