@@ -1,0 +1,13 @@
+diff --git a/shell/ev-application.c b/shell/ev-application.c
+index 2085ba6..873cf17 100644
+--- a/shell/ev-application.c
++++ b/shell/ev-application.c
+@@ -961,7 +961,7 @@ ev_application_startup (GApplication *gapplication)
+           "win.go-backwards",           "<Shift>Page_Up", NULL,
+           "win.go-forward",             "<Shift>Page_Down", NULL,
+           "win.go-next-page",           "n", "<Ctrl>Page_Down", NULL,
+-          "win.go-previous-page",       "p", "<Ctrl>Page_Up", NULL,
++          "win.go-previous-page",       "t", "<Ctrl>Page_Up", NULL,
+           "win.go-back-history",        "<alt>P", "Back", NULL,
+           "win.go-forward-history",     "<alt>N", "Forward", NULL,
+           "win.sizing-mode::fit-page",  "f", NULL,
