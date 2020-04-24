@@ -9,6 +9,7 @@ dev-lang/dmd -* abi_x86_32 examples selfhost tools
 dev-lang/perl ithreads
 kde-apps/libkcddb musicbrainz
 media-fonts/ricty disable-fullwidth-ambiguous-charactors
+media-gfx/inkscape python_single_target_python3_8
 net-print/hplip minimal -X
 net-vpn/networkmanager-l2tp gnome
 sys-kernel/gentoo-sources experimental
