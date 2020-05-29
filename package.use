@@ -1,5 +1,5 @@
 app-admin/keepassxc autotype network
-app-editors/emacs toolkit-scroll-bars
+app-editors/emacs dynamic-loading gfile harfbuzz imagemagick json libxml2 sound toolkit-scroll-bars xwidgets
 app-emulation/wine-vanilla vulkan -realtime
 app-i18n/mozc renderer
 app-portage/layman sync-plugin-portage
