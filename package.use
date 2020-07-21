@@ -56,3 +56,5 @@ sys-apps/systemd cgroup-hybrid
 >=app-arch/xz-utils-5.2.5 static-libs
 # required by dev-texlive/texlive-xetex-2020::gentoo
 >=app-text/texlive-core-2020-r5 xetex
+# required by sys-libs/libseccomp:gentoo[python]
+sys-libs/libseccomp static-libs
