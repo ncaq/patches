@@ -8,3 +8,4 @@ sys-kernel/gentoo-sources -~amd64
 www-client/chromium -~amd64
 
 media-libs/alsa-lib -~amd64
+x11-libs/libX11 -~amd64
