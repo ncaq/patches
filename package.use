@@ -58,3 +58,7 @@ sys-apps/systemd cgroup-hybrid
 >=app-text/texlive-core-2020-r5 xetex
 # required by sys-libs/libseccomp:gentoo[python]
 sys-libs/libseccomp static-libs
+# required by dev-python/jupyter (argument)
+>=dev-python/QtPy-1.9.0-r2 printsupport
+>=dev-qt/qtmultimedia-5.15.0 widgets
+>=net-libs/zeromq-4.3.3 drafts
