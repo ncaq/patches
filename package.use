@@ -62,3 +62,5 @@ sys-libs/libseccomp static-libs
 >=dev-python/QtPy-1.9.0-r2 printsupport
 >=dev-qt/qtmultimedia-5.15.0 widgets
 >=net-libs/zeromq-4.3.3 drafts
+# required by [732708 – net-vpn/strongswan charon program complains about missing caps](https://bugs.gentoo.org/732708)
+net-vpn/strongswan -caps -non-root
