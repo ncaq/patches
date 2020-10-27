@@ -1,7 +1,7 @@
 app-admin/keepassxc autotype network
 app-editors/emacs dynamic-loading gfile harfbuzz imagemagick json libxml2 sound toolkit-scroll-bars xwidgets
 app-emulation/wine-vanilla vulkan -realtime
-app-i18n/mozc renderer
+app-i18n/mozc renderer ut
 app-portage/layman sync-plugin-portage
 app-text/texlive luatex
 dev-java/openjdk-bin gentoo-vm
@@ -58,3 +58,9 @@ sys-apps/systemd cgroup-hybrid
 >=app-text/texlive-core-2020-r5 xetex
 # required by sys-libs/libseccomp:gentoo[python]
 sys-libs/libseccomp static-libs
+# required by dev-python/jupyter (argument)
+>=dev-python/QtPy-1.9.0-r2 printsupport
+>=dev-qt/qtmultimedia-5.15.0 widgets
+>=net-libs/zeromq-4.3.3 drafts
+# required by [732708 – net-vpn/strongswan charon program complains about missing caps](https://bugs.gentoo.org/732708)
+net-vpn/strongswan -caps -non-root
