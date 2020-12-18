@@ -64,3 +64,7 @@ sys-libs/libseccomp static-libs
 >=net-libs/zeromq-4.3.3 drafts
 # required by [732708 – net-vpn/strongswan charon program complains about missing caps](https://bugs.gentoo.org/732708)
 net-vpn/strongswan -caps -non-root
+# required by kde-misc/kdeconnect-20.12.0::gentoo
+>=dev-qt/qtmultimedia-5.15.2 qml
+# workaround
+media-video/obs-studio python_single_target_python3_7
