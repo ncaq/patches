@@ -66,3 +66,5 @@ sys-libs/libseccomp static-libs
 net-vpn/strongswan -caps -non-root
 # required by kde-misc/kdeconnect-20.12.0::gentoo
 >=dev-qt/qtmultimedia-5.15.2 qml
+# workaround
+media-video/obs-studio python_single_target_python3_7
