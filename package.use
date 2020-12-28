@@ -68,3 +68,5 @@ net-vpn/strongswan -caps -non-root
 >=dev-qt/qtmultimedia-5.15.2 qml
 # workaround
 media-video/obs-studio python_single_target_python3_7
+# required by app-i18n/mozc-2.26.4220_p20201212102434_p20201219202429::ncaq-overlay
+>=dev-cpp/abseil-cpp-20200923.2 cxx17
