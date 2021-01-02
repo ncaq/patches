@@ -6,6 +6,3 @@ net-libs/webkit-gtk -~amd64
 sys-apps/systemd -~amd64
 sys-kernel/gentoo-sources -~amd64
 www-client/chromium -~amd64
-
-media-libs/alsa-lib -~amd64
-x11-libs/libX11 -~amd64
