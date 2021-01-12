@@ -43,22 +43,15 @@ sys-libs/zlib minizip
 >=net-libs/libssh-0.9.0 server
 # required by app-emulation/docker-19.03.5:0/0::gentoo
 sys-apps/systemd cgroup-hybrid
-# required by net-im/zoom-3.5.374815.0324-r2::gentoo
->=dev-qt/qtwebchannel-5.14.1 qml
->=dev-qt/qtwebengine-5.14.1 widgets
 # required by dev-texlive/texlive-xetex-2020::gentoo
 >=app-text/texlive-core-2020-r5 xetex
 # required by sys-libs/libseccomp:gentoo[python]
 sys-libs/libseccomp static-libs
-# required by dev-python/jupyter (argument)
->=dev-python/QtPy-1.9.0-r2 printsupport
->=dev-qt/qtmultimedia-5.15.0 widgets
->=net-libs/zeromq-4.3.3 drafts
 # required by [732708 – net-vpn/strongswan charon program complains about missing caps](https://bugs.gentoo.org/732708)
 net-vpn/strongswan -caps -non-root
-# required by kde-misc/kdeconnect-20.12.0::gentoo
->=dev-qt/qtmultimedia-5.15.2 qml
 # workaround
 media-video/obs-studio python_single_target_python3_7
 # required by app-i18n/mozc-2.26.4220_p20201212102434_p20201219202429::ncaq-overlay
 >=dev-cpp/abseil-cpp-20200923.2 cxx17
+# required by kde-misc/kdeconnect-20.12.1::gentoo
+>=dev-qt/qtmultimedia-5.15.2 widgets qml
