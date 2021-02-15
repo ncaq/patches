@@ -53,3 +53,5 @@ media-video/obs-studio python_single_target_python3_7
 >=dev-cpp/abseil-cpp-20200923.2 cxx17
 # required by kde-misc/kdeconnect-20.12.1::gentoo
 >=dev-qt/qtmultimedia-5.15.2 widgets qml
+# required by dev-python/jupyter-1.0.0-r3::gentoo
+>=net-libs/zeromq-4.3.4 drafts
