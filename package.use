@@ -17,6 +17,8 @@ sys-kernel/gentoo-sources experimental
 >=dev-db/sqlite-3.26.0 secure-delete
 >=x11-base/xorg-server-1.20.3 xvfb
 dev-lang/python sqlite
+# [787158 – www-client/firefox fails to compile with net-libs/nodejs[lto]](https://bugs.gentoo.org/787158)
+net-libs/nodejs -lto
 # required by www-client/chromium-63.0.3239.108:0/0::gentoo
 >=net-libs/nodejs-8.14.0 inspector
 sys-libs/zlib minizip
