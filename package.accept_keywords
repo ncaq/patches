@@ -1,11 +1,8 @@
 app-office/libreoffice -~amd64
 app-office/libreoffice-l10n -~amd64
 dev-lang/dmd -~amd64
-dev-lang/rust -~amd64
-dev-lang/rust-bin -~amd64
 dev-util/dlang-tools -~amd64
 net-libs/webkit-gtk -~amd64
 sys-apps/systemd -~amd64
 sys-kernel/gentoo-sources -~amd64
-virtual/rust -~amd64
 www-client/chromium -~amd64
