@@ -48,8 +48,6 @@ www-client/chromium -custom-cflags
 sys-libs/libseccomp static-libs
 # required by [732708 – net-vpn/strongswan charon program complains about missing caps](https://bugs.gentoo.org/732708)
 net-vpn/strongswan -caps -non-root
-# workaround
-media-video/obs-studio python_single_target_python3_7
 # required by app-i18n/mozc-2.26.4220_p20201212102434_p20201219202429::ncaq-overlay
 >=dev-cpp/abseil-cpp-20200923.2 cxx17
 # required by kde-misc/kdeconnect-20.12.1::gentoo
