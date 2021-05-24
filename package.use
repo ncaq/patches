@@ -54,3 +54,7 @@ net-vpn/strongswan -caps -non-root
 >=dev-qt/qtmultimedia-5.15.2 widgets qml
 # required by dev-python/jupyter-1.0.0-r3::gentoo
 >=net-libs/zeromq-4.3.4 drafts
+# required by dev-ml/ocamlgraph-1.8.8-r2::gentoo[gtk]
+>=dev-ml/lablgtk-2.18.10:2 gnomecanvas
+# required by dev-ml/ocamlgraph-2.0.0-r1::gentoo
+>=dev-ml/stdlib-shims-0.3.0 ocamlopt
