@@ -62,3 +62,5 @@ net-vpn/strongswan -caps -non-root
 >=dev-ml/stdlib-shims-0.3.0 ocamlopt
 # required by dev-lang/julia-1.6.0::gentoo
 >=net-misc/curl-7.77.0 ssh
+# [782919 – Building dev-libs/libutf8proc-2.6.1 with USE="cjk" prevents dev-lang/julia from printing matrices](https://bugs.gentoo.org/782919)
+dev-libs/libutf8proc -cjk
