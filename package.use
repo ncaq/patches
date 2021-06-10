@@ -60,3 +60,5 @@ net-vpn/strongswan -caps -non-root
 >=dev-ml/lablgtk-2.18.10:2 gnomecanvas
 # required by dev-ml/ocamlgraph-2.0.0-r1::gentoo
 >=dev-ml/stdlib-shims-0.3.0 ocamlopt
+# required by dev-lang/julia-1.6.0::gentoo
+>=net-misc/curl-7.77.0 ssh
