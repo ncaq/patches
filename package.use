@@ -8,6 +8,7 @@ dev-java/openjdk-bin gentoo-vm
 dev-lang/dmd -* abi_x86_32 examples selfhost tools
 dev-lang/perl ithreads
 kde-apps/libkcddb musicbrainz
+kde-frameworks/kio -kwallet
 media-fonts/ricty disable-fullwidth-ambiguous-charactors
 net-print/hplip minimal -X
 net-vpn/networkmanager-l2tp gnome
@@ -54,7 +55,12 @@ net-vpn/strongswan -caps -non-root
 >=dev-qt/qtmultimedia-5.15.2 widgets qml
 # required by dev-python/jupyter-1.0.0-r3::gentoo
 >=net-libs/zeromq-4.3.4 drafts
+>=dev-python/QtPy-1.9.0-r5 printsupport
 # required by dev-ml/ocamlgraph-1.8.8-r2::gentoo[gtk]
 >=dev-ml/lablgtk-2.18.10:2 gnomecanvas
 # required by dev-ml/ocamlgraph-2.0.0-r1::gentoo
 >=dev-ml/stdlib-shims-0.3.0 ocamlopt
+# required by dev-lang/julia-1.6.0::gentoo
+>=net-misc/curl-7.77.0 ssh
+# [782919 – Building dev-libs/libutf8proc-2.6.1 with USE="cjk" prevents dev-lang/julia from printing matrices](https://bugs.gentoo.org/782919)
+dev-libs/libutf8proc -cjk
