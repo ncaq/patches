@@ -3,6 +3,7 @@ app-emulation/wine-vanilla -~amd64
 app-office/libreoffice -~amd64
 app-office/libreoffice-l10n -~amd64
 dev-lang/dmd -~amd64
+dev-lang/ocaml -~amd64
 dev-util/dlang-tools -~amd64
 net-libs/webkit-gtk -~amd64
 sys-apps/systemd -~amd64
