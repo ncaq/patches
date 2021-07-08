@@ -64,3 +64,5 @@ net-vpn/strongswan -caps -non-root
 >=net-misc/curl-7.77.0 ssh
 # [782919 – Building dev-libs/libutf8proc-2.6.1 with USE="cjk" prevents dev-lang/julia from printing matrices](https://bugs.gentoo.org/782919)
 dev-libs/libutf8proc -cjk
+# required by kde-apps/kcachegrind-21.04.2::gentoo
+>=media-libs/freetype-2.10.4 harfbuzz
